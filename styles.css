@@ -6,7 +6,7 @@ html,body{
 nav{
     width: 100%;
     position: fixed;
-    background-color: #000000;
+    z-index: 1;
 }
 .fullheight{
     height: 100%;
@@ -15,10 +15,6 @@ nav{
     display: flex;
     flex-direction: row;
 }
-.stupname, .header{
-    color: #ffffff;
-    text-decoration: none;
-}
 .margin{
     margin-left: 55%;
 }
@@ -26,30 +22,91 @@ nav{
     font-family: 'Roboto', sans-serif;
     font-size: large;
     padding: 1.4% 2%;
+    color: #000000;
+    text-decoration: none;
 }
 .stupname{
     font-family: 'Roboto Slab', serif;
     margin-left: 5%;
     padding: 1% 0;
+    width: 10%;
     font-weight: bold;
     font-size: x-large;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #000000;
+    text-align: center;
 }
 .intro h1{
     font-family: 'Roboto Slab', serif;
     color: #000000;
     position: absolute;
     top: 35%;
-    left: 62%;
+    left: 66%;
 }
 .intro h2{
     font-family: 'Roboto Slab', serif;
     color: #000000;
     position: absolute;
     top: 42%;
-    left: 62%;
+    left: 66%;
 }
 .img{
     position: absolute;
-    top: 25%;
-    left: 8%;
+    top: 20%;
+    left: 4%;
+    height: 70%;
+    width: 60%;
+}
+.btn1{
+    position: absolute;
+    top: 57%;
+    left: 73%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px 15px 10px 15px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+.btn2{
+    position: absolute;
+    top: 57%;
+    left: 81%;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px 15px 10px 15px;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+.width{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;    
+    place-items: center;
+}
+.div2{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+.newc{
+    padding: 2%;
+    margin: auto;
 }
